@@ -1,0 +1,263 @@
+2018-04-25 15:02:28,505 [INFO] from application in application-akka.actor.default-dispatcher-4 - Started:Actor[akka://application/user/ClientManagerActor#157080255]
+2018-04-25 15:02:29,995 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-6 - Schema definitions are written
+2018-04-25 15:02:30,057 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-25 15:02:30,562 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-6 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-25 15:02:30,750 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev)
+2018-04-25 15:02:31,135 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-25 15:05:15,663 [INFO] from application in application-akka.actor.default-dispatcher-13 - Started:Actor[akka://application/user/ClientManagerActor#1742733293]
+2018-04-25 15:05:16,154 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-9 - Schema definitions are written
+2018-04-25 15:05:16,166 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-9 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-25 15:05:16,274 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-9 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-25 15:05:16,284 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-9 - Application started (Dev)
+2018-04-25 15:07:51,413 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-15 - Host not allowed: 127.0.0.1:9001
+2018-04-25 15:39:52,561 [INFO] from application in application-akka.actor.default-dispatcher-3 - Started:Actor[akka://application/user/ClientManagerActor#-1949098324]
+2018-04-25 15:39:52,907 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-19 - Schema definitions are written
+2018-04-25 15:39:52,922 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-19 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-25 15:39:53,139 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-19 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-25 15:39:53,149 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-19 - Application started (Dev)
+2018-04-25 15:39:53,162 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 127.0.0.1:9001
+2018-04-25 15:41:43,704 [INFO] from application in application-akka.actor.default-dispatcher-2 - Started:Actor[akka://application/user/ClientManagerActor#-1453530915]
+2018-04-25 15:41:44,233 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-15 - Schema definitions are written
+2018-04-25 15:41:44,245 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-15 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-25 15:41:44,398 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-15 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-25 15:41:44,408 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-15 - Application started (Dev)
+2018-04-25 15:41:44,421 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 127.0.0.1:9001
+2018-04-25 17:12:03,893 [WARN] from org.jboss.netty.channel.DefaultChannelPipeline in application-akka.remote.default-remote-dispatcher-5 - An exception was thrown by an exception handler.
+java.util.concurrent.RejectedExecutionException: Worker has already been shutdown
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.registerTask(AbstractNioSelector.java:120)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.executeInIoThread(AbstractNioWorker.java:72)
+	at org.jboss.netty.channel.socket.nio.NioWorker.executeInIoThread(NioWorker.java:36)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.executeInIoThread(AbstractNioWorker.java:56)
+	at org.jboss.netty.channel.socket.nio.NioWorker.executeInIoThread(NioWorker.java:36)
+	at org.jboss.netty.channel.socket.nio.AbstractNioChannelSink.execute(AbstractNioChannelSink.java:34)
+	at org.jboss.netty.channel.DefaultChannelPipeline.execute(DefaultChannelPipeline.java:636)
+	at org.jboss.netty.channel.Channels.fireExceptionCaughtLater(Channels.java:496)
+	at org.jboss.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:46)
+	at org.jboss.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:781)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.disconnect(Channels.java:781)
+	at org.jboss.netty.channel.AbstractChannel.disconnect(AbstractChannel.java:219)
+	at akka.remote.transport.netty.NettyTransport$.$anonfun$gracefulClose$1(NettyTransport.scala:241)
+	at akka.remote.transport.netty.NettyTransport$.$anonfun$gracefulClose$1$adapted(NettyTransport.scala:240)
+	at scala.util.Success.foreach(Try.scala:249)
+	at scala.concurrent.Future.$anonfun$foreach$1$adapted(Future.scala:226)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-04-25 17:12:04,518 [INFO] from application in application-akka.actor.default-dispatcher-5 - Started:Actor[akka://application/user/ClientManagerActor#1926488377]
+2018-04-25 17:12:04,883 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-30 - Schema definitions are written
+2018-04-25 17:12:04,888 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-30 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-25 17:12:05,104 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-30 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-25 17:12:05,116 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-30 - Application started (Dev)
+2018-04-25 17:12:05,128 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-26 09:02:57,067 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=14h54m21s587ms).
+2018-04-26 09:40:24,691 [INFO] from application in application-akka.actor.default-dispatcher-4 - Started:Actor[akka://application/user/ClientManagerActor#-1779311944]
+2018-04-26 09:40:25,215 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-35 - Schema definitions are written
+2018-04-26 09:40:25,220 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-35 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 09:40:25,375 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-35 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 09:40:25,393 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-35 - Application started (Dev)
+2018-04-26 09:40:25,410 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 127.0.0.1:9001
+2018-04-26 09:54:51,339 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-47 - Host not allowed: 127.0.0.1:9001
+2018-04-26 09:54:51,588 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-47 - Host not allowed: 127.0.0.1:9001
+2018-04-26 09:58:06,136 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-48 - Host not allowed: 127.0.0.1:9001
+2018-04-26 09:58:49,405 [INFO] from application in application-akka.actor.default-dispatcher-51 - TradeEngineAccessor: Connection from Balance
+2018-04-26 09:58:55,477 [INFO] from application in application-akka.actor.default-dispatcher-3 - Started:Actor[akka://application/user/ClientManagerActor#-904241266]
+2018-04-26 09:58:55,656 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-36 - Schema definitions are written
+2018-04-26 09:58:55,687 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-36 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 09:58:55,906 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-36 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 09:58:55,917 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-36 - Application started (Dev)
+2018-04-26 09:58:55,930 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 127.0.0.1:9001
+2018-04-26 09:58:55,930 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-14 - Host not allowed: 127.0.0.1:9001
+2018-04-26 10:04:01,148 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-30 - Host not allowed: 127.0.0.1:9001
+2018-04-26 10:20:26,361 [INFO] from application in application-akka.actor.default-dispatcher-2 - Started:Actor[akka://application/user/ClientManagerActor#-1325067017]
+2018-04-26 10:20:26,853 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-47 - Schema definitions are written
+2018-04-26 10:20:26,870 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-47 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 10:20:27,154 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-47 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 10:20:27,168 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-47 - Application started (Dev)
+2018-04-26 10:20:27,192 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 127.0.0.1:9001
+2018-04-26 10:20:27,205 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-26 10:28:15,444 [INFO] from application in application-akka.actor.default-dispatcher-6 - Started:Actor[akka://application/user/ClientManagerActor#3438151]
+2018-04-26 10:28:15,982 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-23 - Schema definitions are written
+2018-04-26 10:28:15,988 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-23 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 10:28:16,228 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-23 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 10:28:16,261 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-23 - Application started (Dev)
+2018-04-26 10:28:16,290 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-26 10:28:16,303 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-5 - Host not allowed: 127.0.0.1:9001
+2018-04-26 10:29:25,303 [INFO] from application in application-akka.actor.default-dispatcher-2 - Started:Actor[akka://application/user/ClientManagerActor#962142532]
+2018-04-26 10:29:25,780 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-54 - Schema definitions are written
+2018-04-26 10:29:25,783 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-54 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 10:29:25,935 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-54 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 10:29:25,941 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-54 - Application started (Dev)
+2018-04-26 10:29:25,970 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-2 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:11:23,939 [INFO] from application in application-akka.actor.default-dispatcher-13 - Started:Actor[akka://application/user/ClientManagerActor#1163394541]
+2018-04-26 11:11:24,466 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-51 - Schema definitions are written
+2018-04-26 11:11:24,470 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-51 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 11:11:24,825 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-51 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 11:11:24,849 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-51 - Application started (Dev)
+2018-04-26 11:11:24,875 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:11:24,877 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-2 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:43:51,873 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-60 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:44:10,931 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-72 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:44:11,181 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-60 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:44:11,333 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-60 - Host not allowed: 127.0.0.1:9001
+2018-04-26 11:47:30,387 [INFO] from application in application-akka.actor.default-dispatcher-4 - Started:Actor[akka://application/user/ClientManagerActor#-2109600117]
+2018-04-26 11:47:30,902 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-23 - Schema definitions are written
+2018-04-26 11:47:30,907 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-23 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 11:47:31,052 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-23 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 11:47:31,096 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-23 - Application started (Dev)
+2018-04-26 13:31:04,957 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=25m3s552ms).
+2018-04-26 16:36:10,908 [INFO] from application in application-akka.actor.default-dispatcher-3 - Started:Actor[akka://application/user/ClientManagerActor#-1430311386]
+2018-04-26 16:36:11,621 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-54 - Schema definitions are written
+2018-04-26 16:36:11,627 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-54 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 16:36:11,932 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-54 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 16:36:11,942 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-54 - Application started (Dev)
+2018-04-26 16:36:11,953 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-2 - Host not allowed: 127.0.0.1:9001
+2018-04-26 16:48:36,161 [INFO] from application in application-akka.actor.default-dispatcher-5 - Started:Actor[akka://application/user/ClientManagerActor#-545924779]
+2018-04-26 16:48:36,599 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-42 - Schema definitions are written
+2018-04-26 16:48:36,603 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-42 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 16:48:36,854 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-42 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 16:48:36,950 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-42 - Application started (Dev)
+2018-04-26 16:48:36,987 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-26 16:49:18,205 [INFO] from application in application-akka.actor.default-dispatcher-4 - TradeEngineAccessor: Connection from Balance
+2018-04-26 17:33:56,656 [INFO] from application in application-akka.actor.default-dispatcher-3 - Started:Actor[akka://application/user/ClientManagerActor#-570737501]
+2018-04-26 17:33:56,924 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-64 - Schema definitions are written
+2018-04-26 17:33:56,928 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-64 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-26 17:33:57,172 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-64 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-26 17:33:57,179 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-64 - Application started (Dev)
+2018-04-26 18:02:57,400 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-52 - Host not allowed: 127.0.0.1:9001
+2018-04-26 21:09:58,016 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=3h30s624ms).
+2018-04-27 11:01:12,819 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=13h51m14s506ms).
+2018-04-27 11:10:57,291 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-89 - Host not allowed: 127.0.0.1:9001
+2018-04-27 11:21:12,145 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Retrograde clock change detected (housekeeper delta=28s852ms), soft-evicting connections from pool.
+2018-04-27 12:12:47,791 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-190 - Host not allowed: 127.0.0.1:9001
+2018-04-27 12:12:48,083 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-190 - Host not allowed: 127.0.0.1:9001
+2018-04-27 14:15:07,934 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=41m54s268ms).
+2018-04-27 14:34:22,559 [INFO] from application in application-akka.actor.default-dispatcher-2 - Started:Actor[akka://application/user/ClientManagerActor#1240886881]
+2018-04-27 14:34:22,823 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-80 - Schema definitions are written
+2018-04-27 14:34:22,827 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-80 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-27 14:34:23,178 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-80 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-27 14:34:23,187 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-80 - Application started (Dev)
+2018-04-27 14:34:23,201 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: 127.0.0.1:9001
+2018-04-27 15:00:56,965 [INFO] from application in application-akka.actor.default-dispatcher-4 - Started:Actor[akka://application/user/ClientManagerActor#-511912098]
+2018-04-27 15:00:57,417 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-82 - Schema definitions are written
+2018-04-27 15:00:57,484 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-82 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-27 15:00:57,662 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-82 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-27 15:00:57,667 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-82 - Application started (Dev)
+2018-04-27 15:02:59,479 [INFO] from application in application-akka.actor.default-dispatcher-2 - Started:Actor[akka://application/user/ClientManagerActor#-1409416298]
+2018-04-27 15:03:00,030 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-79 - Schema definitions are written
+2018-04-27 15:03:00,042 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-79 - application.conf @ file:/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+2018-04-27 15:03:00,213 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-79 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-27 15:03:00,220 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-79 - Application started (Dev)
+2018-04-27 17:30:19,427 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=2m17s131ms).
+2018-04-28 08:59:01,100 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=14h49m10s877ms).
+2018-04-28 09:13:01,161 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Retrograde clock change detected (housekeeper delta=29s824ms), soft-evicting connections from pool.
+2018-04-28 21:09:39,137 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=3h29s812ms).
+2018-04-30 09:02:29,895 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=1d11h52m50s733ms).
+2018-04-30 09:11:26,605 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Retrograde clock change detected (housekeeper delta=26s559ms), soft-evicting connections from pool.
+2018-04-30 13:35:42,756 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=25m13s208ms).
+2018-04-30 21:06:17,689 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=3h30s791ms).
+2018-05-03 08:37:46,751 [WARN] from com.zaxxer.hikari.pool.HikariPool in db housekeeper - db - Thread starvation or clock leap detected (housekeeper delta=2d11h31m29s144ms).
+2018-05-03 09:23:46,085 [ERROR] from play.core.server.common.WebSocketFlowHandler in play-dev-mode-akka.actor.default-dispatcher-87 - WebSocket flow threw exception
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://play-dev-mode/user/StreamSupervisor-0/flow-152-0-detacher#-2034759605]] terminated abruptly

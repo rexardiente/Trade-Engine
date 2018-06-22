@@ -1,0 +1,487 @@
+reload
+compile
+clean 
+relload
+reload
+compile
+reload
+compile
+reload
+compile
+clean
+reload
+comile
+compile
+reload
+compile
+clean
+relaod
+compile
+test
+~test:compile
+reload
+compike
+compile
+~test:compile
+test
+~test:compile
+test
+/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf: 45: play.crypto.secret is deprecated, use play.http.secret.key instead
+[INFO] [03/20/2018 11:05:32.923] [pool-1-thread-1] [akka.remote.Remoting] Starting remoting
+[INFO] [03/20/2018 11:05:32.956] [pool-1-thread-1] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://AccountManagerActorSpec@127.0.0.1:8001]
+[INFO] [03/20/2018 11:05:32.957] [pool-1-thread-1] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://AccountManagerActorSpec@127.0.0.1:8001]
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+clean
+reload
+compile
+reload
+compile
+clean
+reload
+compile
+clean
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+reload
+compile
+test
+~test:compile
+test
+~test:compile
+tess
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+reload
+compile
+reload
+compile
+reload
+compile
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+reload
+compile
+run 9001
+all orders request
+[{"id_order":"85bb75ef-6100-4974-8ebd-8e0daabfa881","id_account":"dc59a3e6-c2e8-49d6-9ee3-5e39ad5264d5","code":"CREATE","size":"0.00","price":"1001.00","is_sell":true,"code_currency_base":"BTC","code_currency_counter":"JPY"}]
+all orders request
+~test:compile
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+~test:compile
+test
+~test:compile
+clean
+reload
+compile
+~test:compile
+reload
+compile
+reload
+compile
+reload
+clean
+reload
+compile
+reload
+compile
+reload
+clean
+reload
+compile
+~test:compile
+reload
+compile
+re
+reload
+compile
+reload
+compile
+reload
+compile
+~test:compile
+clean
+reload
+compile
+~test:compile
+clean
+reload
+compile
+~test:compile
+reload
+compile
+reload
+compile
+reload
+compile
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+r
+reload
+compile
+reload
+compile
+reload
+compile
+~test:compile
+test
+~test:compile
+test
+~test:compile
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+clean
+reload
+compile
+reload
+compile
+~test:compile
+reload
+compile
+~test:compile
+test
+tes
+test
+~test:compile
+tes
+tets
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+clean
+reload
+compile
+test
+clean
+reload
+compile
+clean
+reload
+compile
+reload
+compile
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+etst
+test
+etst
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+etst
+test
+~test:compile
+[error] /Volumes/Development/Projects/mr-trade-engine-2.0/test/app/actors/AccountServiceActorSpec.scala:53: value url is not a member of (Port, String) =>
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+"~sbt run 9001"
+~sbt "run 9001"
+~test:compile
+test
+~test:compile
+test
+run 9001
+test
+run 9001
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+tst
+test
+reload
+compile
+reload
+compil
+compile
+reload
+compile
+clean
+reload
+compile
+reload
+compile
+test
+clean
+reload
+compile
+test
+test\
+test
+run 9001
+testt
+test
+~test:compile
+reload
+compile
+~test:compile
+reload
+compile
++ 2.11.7
+compile
+reload
+compile
+reload
+compile
+reload
+compile
+reload
+compile
++ publish
+++ publish
+compile
+++ 2.12.4
+compile
+ç
+++ 2.11.7
+reload
++ 2.11.7
++2.11.7
++ 2.11.7
+reoad
+relaoa
+reload
++ publish
++ scalaVersion := "2.12.4",
++ 2.11.7
++ publish
+++ publish
+++ 2.11.7
++ package
+++ 2.11.7
+ publish
+++ 2.11.7
+test
+reload
+++ 2.11.7
+test
+\\\reload
+reload
+++ 2.11.8
+test
++ 2.12.4
+++ 2.12.4
+test
++ publish
+++ 2.11.7
++ publish
+++ 2.11.7
+compile
++ publish
+++ publish
+++ 2.11.7
+~test:compile
+reload
+compile
+reload
+compile
+~test:compole
+~test:compile
+reload
+compile
+~test:compile
+reload
+compile
+reload
+compile
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+~test:compile
+test
+reload
+compile
+~test:compile
+test
+tess
+test
+~test:compile
+test
+"~~run 9001"
+clean
+reload
+clean
+reload
+compile
+run 9001
+clean
+reload
+compile
+run 9001
+clean
+reload
+compile
+run 9001
+reload
+compile
+run 9001
+clean
+reload
+compile
+run 9001
+reload
+compile
+run 9001
+relad
+reload
+compile
+~run 9002
+~run 9001
+clean
+reload
+compile
+~run
+clean
+reload
+compile
+~run 9001
+clean
+reload
+compile
+~run 9001
+clean
+reload
+compile
+~run 9001

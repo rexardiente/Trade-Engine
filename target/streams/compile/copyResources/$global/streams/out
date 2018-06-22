@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Volumes/Development/Projects/mr-trade-engine-2.0/conf/application.conf,/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Volumes/Development/Projects/mr-trade-engine-2.0/conf/logback.xml,/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Volumes/Development/Projects/mr-trade-engine-2.0/conf/routes,/Volumes/Development/Projects/mr-trade-engine-2.0/target/scala-2.12/classes/routes)[0m
